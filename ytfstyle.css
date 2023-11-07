@@ -24,9 +24,11 @@ height: auto;
 
 /* Increase the font size of the h1 element */
 .subtitle {
-  height: 10vh;
+  /*height: 10vh;*/
   color:white;
   background: #545454;
+  text-align: center;
+  text-size: 15vh;
 }
 
 /* Style the top navigation bar */
@@ -67,9 +69,11 @@ height: auto;
 /* Main column */
 .main {   
   background-color: #545454;
+  color:white;
   padding: 10%;
   height: 30vh;
   text-align: center;
+  text-size: 10v
 }
 
 /* Column container */
