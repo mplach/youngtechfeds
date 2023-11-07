@@ -5,7 +5,7 @@
 body {
   font-family: Courier New;
   margin: 0;
-  background: #545454;
+  background: white /*#545454; commenting out the dark gray for the time being*/
 }
 
 /* Style the header */
@@ -45,6 +45,7 @@ height: auto;
   color: white;
   text-align: center;
   text-decoration: none;
+  text-size: 20vh,
   width: 30vw;
 }
 
