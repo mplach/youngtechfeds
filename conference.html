@@ -65,8 +65,37 @@ body {
 .main {   
   background-color: gray;
   padding: 20px;
+  min-height: calc(100% - 120px)
+  text-align: center;
 }
 
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two equal columns that sits next to each other */
+/* left column */
+.left {
+  flex: 40%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* right column */
+.right {   
+  flex: 60%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+} 
 
 /* Footer */
 .footer {
