@@ -9,7 +9,7 @@ body {
 
 /* Style the header */
 .header {
-  padding: 80px;
+  padding: 10%;
   text-align: center;
   background: #545454;
   /*color: white;*/
@@ -23,7 +23,7 @@ height: auto;
 
 /* Increase the font size of the h1 element */
 .header h1 {
-  font-size: 40px;
+  font-size: 10%;
 }
 
 /* Style the top navigation bar */
@@ -38,7 +38,7 @@ height: auto;
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 20px;
+  padding: 10% 15%;
   text-decoration: none;
 }
 
@@ -63,8 +63,8 @@ height: auto;
 /* Main column */
 .main {   
   background-color: gray;
-  padding: 20px;
-  min-height: calc(100% - 120px)
+  padding: 10%;
+  height: 80%;
   text-align: center;
 }
 
@@ -79,26 +79,26 @@ height: auto;
 .left {
   flex: 40%;
   background-color: #f1f1f1;
-  padding: 20px;
+  padding: 10%;
 }
 
 /* right column */
 .right {   
   flex: 60%;
   background-color: white;
-  padding: 20px;
+  padding: 10%;
 }
 
 /* Fake image, just for this example */
 .fakeimg {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 10%;
 } 
 
 /* Footer */
 .footer {
-  padding: 20px;
+  height: 10%;
   text-align: center;
   background: #ddd;
 }
