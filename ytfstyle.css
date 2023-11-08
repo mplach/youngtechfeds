@@ -2,6 +2,14 @@
   box-sizing: border-box;
 }
 
+/* 
+cyan #00FFFE
+pink #FF00FF
+gray #545454
+white #FFFFFF
+*/
+
+
 body {
   font-family: Courier New;
   margin: 0;
@@ -101,13 +109,46 @@ height: auto;
 }
 
 /* Fake image, just for this example */
-.circular_image {
-  color: black;
+.bio_photo {
+  background: black;
   height: 60vh;
   clip-path: circle();
   align: center;
   /*padding: 10%;*/
 } 
+
+.bio_photo {
+  position: relative;
+}
+.bio_photo img {
+  background: black;
+  width: 60vh;
+  height: 60vh;
+  border-radius: 50%;
+}
+.bio_photo::after {
+  content: "";
+  width: 70vh;
+  height: 70vh;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 87, 34, 1) 0%,
+    
+      #FF00FF 100%, /*pink*/
+      #00FFFE 100% /*cyan*/
+  );
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  z-index: -1;
+}
+
+
+
+
+
 
 /* Footer */
 .footer {
