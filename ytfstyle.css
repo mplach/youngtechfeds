@@ -36,7 +36,7 @@ height: auto;
   color:white;
   background: #545454;
   text-align: center;
-  text-size: 15px;
+  font-size: 15px;
 }
 
 /* Style the top navigation bar */
@@ -53,7 +53,7 @@ height: auto;
   color: white;
   text-align: center;
   text-decoration: none;
-  text-size: 40px;
+  font-size: 40px;
   padding: 5%;
 }
 
@@ -82,7 +82,7 @@ height: auto;
   padding: 10%;
   height: 30vh;
   text-align: center;
-  text-size: 30px
+  font-size: 30px
 }
 
 
