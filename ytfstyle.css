@@ -35,7 +35,8 @@ height: auto;
 .navbar {
   overflow: hidden;
   background-color: #545454;
-  height: 10vh;
+  height: 5vh;
+  padding: 5%;
 }
 
 /* Style the navigation bar links */
