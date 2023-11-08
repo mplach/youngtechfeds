@@ -45,7 +45,7 @@ height: auto;
   color: white;
   text-align: center;
   text-decoration: none;
-  text-size: 20vh,
+  text-size: 20vh;
   width: 30vw;
 }
 
@@ -102,7 +102,7 @@ height: auto;
 /* Fake image, just for this example */
 .circular_image {
   background-color: black;
-  height: 30vh;
+  height: 80vh;
   clip-path: circle();
   align: center;
   /*padding: 10%;*/
