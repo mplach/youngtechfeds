@@ -38,6 +38,7 @@ height: auto;
   text-align: center;
   font-size: 50px;
   font-weight: bold;
+  overflow: scroll;
 }
 
 
@@ -48,14 +49,16 @@ height: auto;
   padding: 10%;
   height: 30vh;
   text-align: center;
-  font-size: 40px
+  font-size: 40px;
+  overflow: scroll;
+
 }
 
 
 
 /* Style the top navigation bar */
 .navbar {
-  overflow: hidden;
+  overflow: visible;
   background-color: #545454;
   height: 5vh;
   margin: 0;
@@ -71,8 +74,8 @@ height: auto;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 40px;
-  padding: 5%;
+  font-size: 30px;
+  padding: 2%;
 }
 
 /* Right-aligned link */
