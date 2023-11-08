@@ -121,6 +121,7 @@ height: auto;
   /*padding: 10%;*/
 } 
 
+/*
 .bio_photo {
   position: relative;
 }
@@ -138,15 +139,15 @@ height: auto;
     90deg,
     rgba(255, 87, 34, 1) 0%,
       #FF00FF 100%, /*pink*/
-      #00FFFE 100% /*cyan*/
-  );
+      /*#00FFFE 100% /*cyan*/
+ /* );
   display: block;
   position: absolute;
   top: -5px;
   left: -5px;
   z-index: -1;
 }
-
+*/
 
 
 
