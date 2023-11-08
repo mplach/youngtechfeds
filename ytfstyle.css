@@ -20,7 +20,7 @@ body {
 .header {
   /*padding: 10%;*/
   text-align: center;
-  background: black;
+  background: #545454;
   /*color: white;*/
 }
 
@@ -36,9 +36,22 @@ height: auto;
   color:white;
   background: #545454;
   text-align: center;
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bold;
 }
+
+
+/* Main column */
+.main {   
+  background-color: #545454;
+  color:white;
+  padding: 10%;
+  height: 30vh;
+  text-align: center;
+  font-size: 40px
+}
+
+
 
 /* Style the top navigation bar */
 .navbar {
@@ -80,15 +93,7 @@ height: auto;
 }
 
 
-/* Main column */
-.main {   
-  background-color: #545454;
-  color:white;
-  padding: 10%;
-  height: 30vh;
-  text-align: center;
-  font-size: 30px
-}
+
 
 
 /* Column container */
