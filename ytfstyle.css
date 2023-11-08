@@ -28,7 +28,7 @@ height: auto;
   color:white;
   background: #545454;
   text-align: center;
-  text-size: 15vh;
+  text-size: 15px;
 }
 
 /* Style the top navigation bar */
@@ -45,8 +45,8 @@ height: auto;
   color: white;
   text-align: center;
   text-decoration: none;
-  text-size: 20vh;
-  width: 30vw;
+  text-size: 15px;
+  padding: 5%;
 }
 
 /* Right-aligned link */
@@ -74,7 +74,7 @@ height: auto;
   padding: 10%;
   height: 30vh;
   text-align: center;
-  text-size: 10vh
+  text-size: 10px
 }
 
 
