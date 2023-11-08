@@ -101,9 +101,10 @@ height: auto;
 
 /* Fake image, just for this example */
 .circular_image {
-  background-color: #545454;
-  width: 80vw;
+  background-color: black;
+  height: 30vh;
   clip-path: circle();
+  align: center;
   /*padding: 10%;*/
 } 
 
