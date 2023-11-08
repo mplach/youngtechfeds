@@ -13,7 +13,7 @@ white #FFFFFF
 body {
   font-family: Courier New;
   margin: 0;
-  background: white /*#545454; commenting out the dark gray for the time being*/
+  background: #545454; /*commenting out the dark gray for the time being*/
 }
 
 /* Style the header */
