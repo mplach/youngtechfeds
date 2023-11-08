@@ -46,6 +46,8 @@ height: auto;
   height: 5vh;
   margin: 0;
   padding: 0;
+  display: inline-block;
+
 }
 
 /* Style the navigation bar links */
@@ -111,7 +113,6 @@ height: auto;
 
 /* Fake image, just for this example */
 .bio_photo {
-  background: black;
   height: 60vw;
   clip-path: circle();
   align: center;
