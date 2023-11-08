@@ -112,7 +112,7 @@ height: auto;
 /* Fake image, just for this example */
 .bio_photo {
   background: black;
-  height: 60vh;
+  height: 60vw;
   clip-path: circle();
   align: center;
   /*padding: 10%;*/
