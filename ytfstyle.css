@@ -32,7 +32,7 @@ height: auto;
 
 /* Increase the font size of the h1 element */
 .subtitle {
-  /*height: 10vh;*/
+  height: 10vh;
   color:white;
   background: #545454;
   text-align: center;
@@ -44,6 +44,8 @@ height: auto;
   overflow: hidden;
   background-color: #545454;
   height: 5vh;
+  margin: 0;
+  padding: 0;
 }
 
 /* Style the navigation bar links */
