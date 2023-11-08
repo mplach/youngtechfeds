@@ -117,6 +117,7 @@ height: auto;
   height: 60vw;
   clip-path: circle();
   align: center;
+  background: black;
   /*padding: 10%;*/
 } 
 
@@ -124,7 +125,6 @@ height: auto;
   position: relative;
 }
 .bio_photo img {
-  background: black;
   width: 60vh;
   height: 60vh;
   border-radius: 50%;
@@ -137,7 +137,6 @@ height: auto;
   background: linear-gradient(
     90deg,
     rgba(255, 87, 34, 1) 0%,
-    
       #FF00FF 100%, /*pink*/
       #00FFFE 100% /*cyan*/
   );
